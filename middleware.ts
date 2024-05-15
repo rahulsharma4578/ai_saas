@@ -9,3 +9,5 @@ export const config = {
     '/api/webhooks/clerk', // Allow the /api/webhooks/clerk route
   ],
 };
+
+

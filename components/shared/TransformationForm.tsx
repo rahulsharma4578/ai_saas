@@ -78,7 +78,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
       height: imageSize.height,
     }))
 
-    setNewTranasformation(transformationType.config);
+    setNewTransformation(transformationType.config);
 
     return onChangeField(value)
   }

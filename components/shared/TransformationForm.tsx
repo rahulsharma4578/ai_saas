@@ -26,7 +26,7 @@ import { Input } from "@/components/ui/input"
 import { aspectRatioOptions, defaultValues, transformationTypes } from "@/constants"
 import { CustomField } from "./CustomField"
 import { useState, useTransition } from "react"
-import { AspectRatioKey } from "@/lib/utils"
+import { AspectRatioKey, debounce } from "@/lib/utils"
 import { config } from "process"
 
 export const formSchema = z.object({
